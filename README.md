@@ -18,7 +18,7 @@ Let's make a little more progress than yesterday<br>
 
 - JPA
 - 대용량 데이터 핸들링
-- 보안
+- AWS
 
 ## 📫 연락처
 
