@@ -1,6 +1,6 @@
 # Hello, World! 👋
 
-안녕하세요! 저는 백엔드 개발자 임기원 입니다.<br>
+안녕하세요! 저는 임기원 입니다.<br>
 저의 목표는<br>
 Let's make a little more progress than yesterday<br>
 “오늘의 나” 보다 “내일의 나”가 한 발짝이라도 더 앞서있는 개발자<br>
