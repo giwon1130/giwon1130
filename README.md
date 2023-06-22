@@ -22,7 +22,7 @@ Let's make a little more progress than yesterday<br>
 
 ## 📫 연락처
 
-- 이메일: gwim1130@naver.com
+- 이메일: gwim113000@gmail.com
 - 블로그: [노션] https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986?pvs=4
 
 ## 🌱 최근 작업
