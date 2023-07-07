@@ -1,14 +1,14 @@
 # Hello, World! 👋
 
-안녕하세요! 저는 임기원 입니다.<br>
+안녕하세요! 저는 개발자 G 입니다.<br>
 저의 목표는<br>
 Let's make a little more progress than yesterday<br>
-“오늘의 나” 보다 “내일의 나”가 한 발짝이라도 더 앞서있는 개발자<br>
+“오늘의 나” 보다 “내일의 나”가 항상 앞서있는 개발자<br>
 입니다.
 
 ## 💻 기술 스택
 
-- 언어: Java, JavaScript, TypeScript
+- 언어: Java, JavaScript, TypeScript, Python
 - 프레임워크: Spring Boot, Spring Framework, Angular
 - 데이터베이스: Postgresql, MySQL, MongoDB, Oracle
 - 인프라 : AWS, NCLOUD, Linux, Windows Server
@@ -17,13 +17,13 @@ Let's make a little more progress than yesterday<br>
 ## 📚 학습 중인 기술
 
 - 알고리즘
-- 프로그래밍 기초
+- TDD
 - JPA
 
 ## 📫 연락처
 
 - 이메일: gwim113000@gmail.com
-- 블로그: [노션] https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986?pvs=4
+- 블로그: [노션] https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986
 
 ## 🌱 최근 작업
 
