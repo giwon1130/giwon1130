@@ -8,8 +8,8 @@ Let's make a little more progress than yesterday<br>
 
 ## 💻 기술 스택
 
-- 언어: Java, JavaScript, TypeScript, Python
-- 프레임워크: Spring Boot, Spring Framework, Angular
+- 언어: JavaScript, TypeScript, Java, Python
+- 프레임워크: Angular, Spring Boot, Spring Framework
 - 데이터베이스: Postgresql, MySQL, MongoDB, Oracle
 - 인프라 : AWS, NCLOUD, Linux, Windows Server
 - DevOps : Jenkins, Docker, Git, Slack
@@ -23,7 +23,7 @@ Let's make a little more progress than yesterday<br>
 ## 📫 연락처
 
 - 이메일: gwim113000@gmail.com
-- 블로그: [노션] https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986
+- 블로그: [노션] https://www.notion.so/dev-giwon/ce2318d46f3a4b66894ad04d1b20d986?pvs=4
 
 ## 🌱 최근 작업
 
