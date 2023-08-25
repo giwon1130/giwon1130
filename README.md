@@ -8,16 +8,16 @@ Let's make a little more progress than yesterday<br>
 
 ## 💻 기술 스택
 
-- 언어: JavaScript, TypeScript, Java, Python
-- 프레임워크: Angular, Spring Boot, Spring Framework
+- 언어: Java, JavaScript, TypeScript, Python
+- 프레임워크: Spring Boot, Angular, Spring Framework
 - 데이터베이스: Postgresql, MySQL, MongoDB, Oracle
 - 인프라 : AWS, NCLOUD, Linux, Windows Server
 - DevOps : Jenkins, Docker, Git, Slack
 
 ## 📚 학습 중인 기술
 
-- 알고리즘
-- TDD
+- 다익스트라 알고리즘
+- NOSQL(MongoDB,Redis)
 - JPA
 
 ## 📫 연락처
@@ -37,3 +37,5 @@ Let's make a little more progress than yesterday<br>
 - LH 3기 신도시 가상 모델하우스 서비스 개발/운영
 - IOTDA(스마트시티 사물데이터 융합 서비스) 개발
 - FISS(Fiber Integrated Supervision Solution) 개발
+- CCTV Viewer 개발
+- 중장비 이동동선 통계 기능 개발
