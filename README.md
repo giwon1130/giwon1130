@@ -38,4 +38,4 @@ Let's make a little more progress than yesterday<br>
 - IOTDA(스마트시티 사물데이터 융합 서비스) 개발
 - FISS(Fiber Integrated Supervision Solution) 개발
 - CCTV Viewer 개발
-- 중장비 이동동선 통계 기능 개발
+- LMS(Location Management System) 개발
