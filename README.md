@@ -9,10 +9,10 @@ Let's make a little more progress than yesterday<br>
 ## 💻 기술 스택
 
 - 언어: Java, JavaScript, TypeScript, Python
-- 프레임워크: Spring Boot, Angular, Spring Framework
+- 프레임워크: Spring Boot, Angular, Spring Framework, React
 - 데이터베이스: Postgresql, MySQL, MongoDB, Oracle
-- 인프라 : AWS, NCLOUD, Linux, Windows Server
-- DevOps : Jenkins, Docker, Git, Slack
+- 인프라 : AWS, NCLOUD, Linux, Windows Server, Nginx, Tomcat
+- DevOps : Jenkins, Docker, Git Action, Slack
 
 ## 📚 학습 중인 기술
 
