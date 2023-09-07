@@ -25,11 +25,6 @@ Let's make a little more progress than yesterday<br>
 - 이메일: gwim113000@gmail.com
 - 블로그: [노션] https://www.notion.so/dev-giwon/ce2318d46f3a4b66894ad04d1b20d986?pvs=4
 
-## 🌱 최근 작업
-
-- {작업 1}
-- {작업 2}
-- {작업 3}
 
 ## 🤝 기여
 
@@ -39,3 +34,5 @@ Let's make a little more progress than yesterday<br>
 - FISS(Fiber Integrated Supervision Solution) 개발
 - CCTV Viewer 개발
 - LMS(Location Management System) 개발
+- Trip_Memo(여행 공유 서비스) 개발
+- Home_Harmony(아파트 선택 도움 서비스) 개발
