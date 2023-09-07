@@ -10,15 +10,22 @@ Let's make a little more progress than yesterday<br>
 
 - 언어: Java, JavaScript, TypeScript, Python
 - 프레임워크: Spring Boot, Angular, Spring Framework, React
-- 데이터베이스: Postgresql, MySQL, MongoDB, Oracle
+- 데이터베이스: Postgresql, MySQL, MongoDB, Oracle, Redis
 - 인프라 : AWS, NCLOUD, Linux, Windows Server, Nginx, Tomcat
 - DevOps : Jenkins, Docker, Git Action, Slack
 
 ## 📚 학습 중인 기술
 
-- 다익스트라 알고리즘
+- React
 - NOSQL(MongoDB,Redis)
-- JPA
+- 개발흐름
+
+## TODO!!(학습 예정인 기술)
+
+- websoket 통신
+- 중급 DB설계
+- Kotlin
+- 쿠버네티스
 
 ## 📫 연락처
 
