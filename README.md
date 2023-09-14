@@ -8,7 +8,7 @@ Let's make a little more progress than yesterday<br>
 
 ## 💻 기술 스택
 
-- 언어: Java, JavaScript, TypeScript, Python
+- 언어: Java, JavaScript, TypeScript, NodeJS, Python
 - 프레임워크: Spring Boot, Angular, Spring Framework, React
 - 데이터베이스: Postgresql, MySQL, MongoDB, Oracle, Redis
 - 인프라 : AWS, NCLOUD, Linux, Windows Server, Nginx, Tomcat
@@ -18,7 +18,7 @@ Let's make a little more progress than yesterday<br>
 
 - React
 - NOSQL(MongoDB,Redis)
-- 개발흐름
+- 효율적인 구조설계
 
 ## TODO!!(학습 예정인 기술)
 
@@ -43,3 +43,4 @@ Let's make a little more progress than yesterday<br>
 - LMS(Location Management System) 개발
 - Trip_Memo(여행 공유 서비스) 개발
 - Home_Harmony(아파트 선택 도움 서비스) 개발
+- Node.js 기반의 레거시 시스템을 Java Spring JPA로 모던화
