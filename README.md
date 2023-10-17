@@ -16,21 +16,21 @@ Let's make a little more progress than yesterday<br>
 
 ## 📚 학습 중인 기술
 
-- React
+- Security
 - NOSQL(MongoDB,Redis)
-- 효율적인 구조설계
+- 디자인 Pattern
 
 ## TODO!!(학습 예정인 기술)
 
 - websoket 통신
-- 중급 DB설계
-- Kotlin
+- 효율적인 DB설계
+- Golang
 - 쿠버네티스
 
 ## 📫 연락처
 
 - 이메일: gwim113000@gmail.com
-- 블로그: [노션] https://www.notion.so/dev-giwon/ce2318d46f3a4b66894ad04d1b20d986?pvs=4
+- 블로그: [노션] https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986?pvs=4
 
 
 ## 🤝 기여
