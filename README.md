@@ -1,27 +1,29 @@
 # Hello, World! 👋
 
-안녕하세요! 저는 개발자 G 입니다.<br>
-저의 목표는<br>
+안녕하세요! 저는 웹 개발자 G 입니다.<br>
+저는<br>
 Let's make a little more progress than yesterday<br>
 “오늘의 나” 보다 “내일의 나”가 항상 앞서있는 개발자<br>
-입니다.
+가 되기위해 노력하고 있습니다.
 
 ## 💻 기술 스택
 
 - 언어: Java, JavaScript, TypeScript, NodeJS, Python
-- 프레임워크: Spring Boot, Angular, Spring Framework, React
+- 프레임워크: SpringBoot, Angular, SpringFramework, React
 - 데이터베이스: Postgresql, MySQL, MongoDB, Oracle, Redis
-- 인프라 : AWS, NCLOUD, Linux, Windows Server, Nginx, Tomcat
+- 인프라 : AWS, NCLOUD, Linux, WindowsServer, Nginx, Tomcat
 - DevOps : Jenkins, Docker, Git Action, Slack
+- GIS : PostGIS, QGIS, Geoserver, SHP
 
 ## 📚 학습 중인 기술
 
-- Security
+- SpringBoot Security(JWT)
 - NOSQL(MongoDB,Redis)
-- 디자인 Pattern
+- 디자인 Pattern 설계
 
-## TODO!!(학습 예정인 기술)
+## TODO!!(학습하고 싶은 기술)
 
+- CMS(데이터 관리 시스템)
 - websoket 통신
 - 효율적인 DB설계
 - Golang
