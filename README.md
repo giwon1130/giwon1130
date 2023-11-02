@@ -1,7 +1,7 @@
 # Hello, World! 👋
 
 안녕하세요! 저는 웹 개발자 G 입니다.<br>
-저는<br>
+
 Let's make a little more progress than yesterday<br>
 “오늘의 나” 보다 “내일의 나”가 항상 앞서있는 개발자<br>
 가 되기위해 노력하고 있습니다.
@@ -20,6 +20,7 @@ Let's make a little more progress than yesterday<br>
 - SpringBoot Security(JWT)
 - NOSQL(MongoDB,Redis)
 - 디자인 Pattern 설계
+- 3차원 이동동선 분석
 
 ## TODO!!(학습하고 싶은 기술)
 
