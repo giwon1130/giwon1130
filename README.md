@@ -27,7 +27,6 @@ Let's make a little more progress than yesterday<br>
 - CMS(데이터 관리 시스템)
 - websoket 통신
 - 효율적인 DB설계
-- Golang
 - 쿠버네티스
 
 ## 📫 연락처
