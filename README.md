@@ -17,7 +17,6 @@ Let's make a little more progress than yesterday<br>
 
 ## 📚 학습 중인 기술
 
-- SpringBoot Security(JWT)
 - NOSQL(MongoDB,Redis)
 - 디자인 Pattern 설계
 - ELK
@@ -47,4 +46,4 @@ Let's make a little more progress than yesterday<br>
 - Home_Harmony(아파트 선택 도움 서비스) 개발
 - Node.js 기반의 레거시 시스템을 Java Spring JPA로 모던화
 - 현대미술관 앱 GIS 기능 고도화
-- ELK 도입 및 로그 모니터링 서비스 구축
+- 로그 모니터링 서비스 ELK 활용 구축
