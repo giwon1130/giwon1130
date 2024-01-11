@@ -36,14 +36,19 @@ Let's make a little more progress than yesterday<br>
 
 ## 🤝 기여
 
+(회사)
 - 듀플래닛(디지털트윈 기반 메타버스 서비스) 개발/운영
 - LH 3기 신도시 가상 모델하우스 서비스 개발/운영
 - IOTDA(스마트시티 사물데이터 융합 서비스) 개발
 - FISS(Fiber Integrated Supervision Solution) 개발
 - CCTV Viewer 개발
 - LMS(Location Management System) 개발
-- Trip_Memo(여행 공유 서비스) 개발
-- Home_Harmony(아파트 선택 도움 서비스) 개발
 - Node.js 기반의 레거시 시스템을 Java Spring JPA로 모던화
 - 현대미술관 앱 GIS 기능 고도화
 - 로그 모니터링 서비스 ELK 활용 구축
+
+(개인)
+- Trip_Memo(여행 공유 서비스) 개발
+- Home_Harmony(아파트 선택 도움 서비스) 개발
+- AMR(AI 메뉴 추천 서비스) 개발
+
