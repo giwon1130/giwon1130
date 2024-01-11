@@ -46,3 +46,5 @@ Let's make a little more progress than yesterday<br>
 - Trip_Memo(여행 공유 서비스) 개발
 - Home_Harmony(아파트 선택 도움 서비스) 개발
 - Node.js 기반의 레거시 시스템을 Java Spring JPA로 모던화
+- 현대미술관 앱 GIS 기능 고도화
+- ELK 도입 및 로그 모니터링 서비스 구축
