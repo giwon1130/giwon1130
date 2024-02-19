@@ -14,12 +14,14 @@ Let's make a little more progress than yesterday<br>
 - 인프라 : AWS, NCLOUD, Linux, WindowsServer, Nginx, Tomcat
 - DevOps : Jenkins, Docker, Git Action, Slack
 - GIS : PostGIS, QGIS, Geoserver, SHP
+- 오픈소스 : Kafka, ELK, Openlayers
 
 ## 📚 학습 중인 기술
 
-- NOSQL(MongoDB,Redis)
-- 디자인 Pattern 설계
-- ELK
+- kafka
+- 분산처리 시스템
+- 자료구조
+- Redis
 
 ## TODO!!(학습하고 싶은 기술)
 
@@ -46,6 +48,7 @@ Let's make a little more progress than yesterday<br>
 - Node.js 기반의 레거시 시스템을 Java Spring JPA로 모던화
 - 현대미술관 앱 GIS 기능 고도화
 - 로그 모니터링 서비스 ELK 활용 구축
+- 대용량 데이터 대비 분산형 스트리밍 플랫폼 Kafka 도입
 
 (개인)
 - Trip_Memo(여행 공유 서비스) 개발
