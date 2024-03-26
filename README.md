@@ -30,7 +30,7 @@ Let's make a little more progress than yesterday<br>
 ## 📫 연락처
 
 - 이메일: gwim113000@gmail.com
-- 블로그: [티스토리] https://dduckddack-2.tistory.com <br>
+- 블로그: <br>[티스토리] https://dduckddack-2.tistory.com <br>
         [노션] https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986?pvs=4
 
 
