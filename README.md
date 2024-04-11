@@ -16,16 +16,14 @@ Let's make a little more progress than yesterday<br>
 
 ## 📚 학습 중인 기술
 
-- kafka
-- 효율적인 메모리 활용
-- Redis
+- 코틀린
+- 쿠버네티스
+- 비동기
 
 ## TODO!!(학습하고 싶은 기술)
 
 - 효율적인 DB설계
 - 대용량 데이터 핸들링
-- websoket 통신
-- 쿠버네티스
 
 ## 📫 연락처
 
