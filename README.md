@@ -6,7 +6,7 @@ Let's make a little more progress than yesterday<br>
 
 ## 💻 기술 스택
 
-- 언어: Java, Kotlin, PostgreSQL, gRPC, R2DBC, Coroutine
+- 언어: Java, Kotlin, PostgreSQL, gRPC, R2DBC, Coroutine
 - GIS : PostGIS, QGIS, Geoserver, SHP
 
 ## 📫 연락처
