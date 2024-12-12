@@ -2,7 +2,6 @@
 
 hello! My name is Giwon Im, a backend developer.<br>
 
-Let's make a little more progress than yesterday<br>
 
 ## 💻 기술 스택
 
