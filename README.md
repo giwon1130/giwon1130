@@ -26,14 +26,17 @@ Let's make a little more progress than yesterday<br>
 ### **Frontend Integration**
 
 - **Angular / React / TypeScript / JavaScript**
-TypeScript 기반의 Angular를 활용해 프론트엔드 개발 및 컴포넌트 기반의 사용자 인터페이스 구현 경험이 있습니다.
+    
+    TypeScript 기반의 Angular를 활용해 프론트엔드 개발 및 컴포넌트 기반의 사용자 인터페이스 구현 경험이 있습니다.
 
 ---
 
 ### **GIS Technologies**
 
 - **PostGIS / OpenLayers / GeoServer / QGIS / GDAL**
-GIS 기술을 활용해 디지털트윈 프로젝트를 성공적으로 수행한 경험이 있습니다.
+
+    
+    GIS 기술을 활용해 디지털트윈 프로젝트를 성공적으로 수행한 경험이 있습니다.
 
 ---
 
