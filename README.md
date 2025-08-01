@@ -7,7 +7,7 @@ hello! My name is Giwon Im, a backend developer.<br>
 
 ### **Backend Development**
 
-- **Java / Kotlin / Spring**
+- **Kotlin / Java / Spring**
     
     Java, Kotlin, Spring, JPA 기술을 활용해 다양한 프로젝트의 API(Rest API, gRPC) 개발 경험이 있습니다.
     
@@ -19,13 +19,6 @@ hello! My name is Giwon Im, a backend developer.<br>
     
     다양한 프로그래밍 언어로 작성된 레거시 코드를 분석 및 개선하여, 유지보수성과 성능을 향상시키는 경험과 역량을 보유하고 있습니다.
     
-
----
-
-### **Frontend Integration**
-
-- **Angular / React / TypeScript / JavaScript**
-TypeScript 기반의 Angular를 활용해 프론트엔드 개발 및 컴포넌트 기반의 사용자 인터페이스 구현 경험이 있습니다.
 
 ---
 
