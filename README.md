@@ -22,7 +22,6 @@
 
 - **주요 기술**: Kotlin, Java, Spring Boot, Spring Data JPA, QueryDSL
 - **아키텍처**: REST API, gRPC, Microservices
-- **특기**: 레거시 시스템 마이그레이션 및 성능 최적화
 
 ### Database & Cache
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -40,7 +39,6 @@
 
 - **GIS Stack**: PostGIS, GeoServer, OpenLayers, QGIS, GDAL
 - **경험**: 디지털트윈, 위성/항공 이미지 분석 플랫폼 개발
-- **특기**: 대용량 지리공간 데이터 처리 및 최적화
 
 ### Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
