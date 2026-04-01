@@ -4,12 +4,13 @@
 
 Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 조회 성능 개선, 비동기 처리 구조 설계, 운영 안정화 작업을 수행해왔습니다.
-백엔드 구현에 강점이 있지만, 최근에는 `giwon-home` 같은 허브와 독립 서비스들을 직접 만들며
+백엔드 구현에 강점이 있지만, 최근에는 `giwon-home` 같은 허브와
+`emergency-room`, `giwon-assistant-api` 같은 독립 서비스들을 직접 만들며
 제품 관점에서 공개 저장소를 정리하고 있습니다.
 실무 대표 프로젝트는 보안상 공개 저장소로 제공할 수 없어
 문제, 역할, 해결 방식, 성과 중심으로 노션 포트폴리오에 정리했습니다.
 
-최근 공개 저장소는 `giwon-home` 허브와 `emergency-room` 같은 독립 서비스들을 중심으로 정리하고 있습니다.
+최근 공개 저장소는 `giwon-home` 허브, `emergency-room`, `giwon-assistant-api` 같은 독립 서비스들을 중심으로 정리하고 있습니다.
 
 <div align="center">
 
@@ -24,6 +25,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 - 대량 데이터 처리와 조회 성능 개선
 - Kafka, Redis 기반 비동기 처리 구조 설계
 - PostGIS 기반 공간 데이터 처리와 GIS 서비스 개발
+- 개인 생산성과 공공 데이터 영역에서 독립 서비스 MVP를 빠르게 구현
 
 ## 대표 실무 경험
 - FastAPI 기반 라벨링 툴 백엔드를 Kotlin Spring Boot로 전환하며 팀 주력 스택으로 통합
@@ -36,6 +38,8 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
   공개 프로젝트 허브, 자기소개 페이지, 독립 서비스 진입점을 제공하는 프론트엔드 허브
 - [giwon-home-api](https://github.com/giwon1130/giwon-home-api)
   허브에서 사용하는 공개 프로필/프로젝트 카탈로그 API 서버
+- [giwon-assistant-api](https://github.com/giwon1130/giwon-assistant-api)
+  아침 브리핑, 일정 요약, 아이디어 정리를 제공하는 개인용 AI 비서 API
 - [emergency-room-frontend](https://github.com/giwon1130/emergency-room-frontend)
   현재 위치 기반으로 주변 응급실 병상 현황을 지도와 리스트로 보여주는 프론트엔드
 - [emergency-room-backend](https://github.com/giwon1130/emergency-room-backend)
@@ -47,6 +51,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 
 - [giwon-home](https://github.com/giwon1130/giwon-home)
 - [giwon-home-api](https://github.com/giwon1130/giwon-home-api)
+- [giwon-assistant-api](https://github.com/giwon1130/giwon-assistant-api)
 - [emergency-room-frontend](https://github.com/giwon1130/emergency-room-frontend)
 - [emergency-room-backend](https://github.com/giwon1130/emergency-room-backend)
 - [base-spring-template](https://github.com/giwon1130/base-spring-template)
