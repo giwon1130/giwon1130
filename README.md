@@ -47,9 +47,3 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 ## 링크
 - [Notion Portfolio](https://www.notion.so/dev-giwon/ce2318d46f3a4b66894ad04d1b20d986)
 - [Blog](https://dduckddack-2.tistory.com)
-
-## GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=giwon1130&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-</div>
