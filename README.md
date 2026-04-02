@@ -45,7 +45,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 - [emergency-room-backend](https://github.com/giwon1130/emergency-room-backend)
   공공 응급의료 API, PostGIS, Redis 기반으로 위치 조회와 상태 요약을 제공하는 백엔드
 - [HomeHarmony](https://github.com/giwon1130/HomeHarmony)
-  입지, 예산, 출퇴근 기준을 함께 비교하는 주거 선택 지원 프론트엔드 MVP
+  입지, 예산, 출퇴근 기준과 생활권 시각화를 함께 제공하는 주거 선택 지원 프론트엔드 MVP
 - [TripMemo](https://github.com/giwon1130/TripMemo)
   JWT 인증과 여행 메모 CRUD를 갖춘 여행 기록 서비스 백엔드
 
