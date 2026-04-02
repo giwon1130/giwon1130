@@ -47,7 +47,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 - [HomeHarmony](https://github.com/giwon1130/HomeHarmony)
   입지, 예산, 출퇴근 기준과 Leaflet 기반 생활권 지도를 함께 제공하는 주거 선택 지원 프론트엔드 MVP
 - [TripMemo](https://github.com/giwon1130/TripMemo)
-  여행(trip), 장소, 메모를 함께 묶어 기록하는 여행 기록 서비스 백엔드
+  여행(trip), 장소, 메모를 함께 묶고 상세/타임라인 조회까지 제공하는 여행 기록 서비스 백엔드
 
 ## 공개 저장소 방향
 공개 저장소는 실무 프로젝트 원본을 올리는 공간이 아니라,
