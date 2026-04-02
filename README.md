@@ -5,12 +5,12 @@
 Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 조회 성능 개선, 비동기 처리 구조 설계, 운영 안정화 작업을 수행해왔습니다.
 백엔드 구현에 강점이 있지만, 최근에는 `giwon-home` 같은 허브와
-`emergency-room`, `giwon-assistant-api` 같은 독립 서비스들을 직접 만들며
+`emergency-room`, `giwon-assistant-api`, `HomeHarmony`, `TripMemo` 같은 독립 서비스들을 직접 만들며
 제품 관점에서 공개 저장소를 정리하고 있습니다.
 실무 대표 프로젝트는 보안상 공개 저장소로 제공할 수 없어
 문제, 역할, 해결 방식, 성과 중심으로 노션 포트폴리오에 정리했습니다.
 
-최근 공개 저장소는 `giwon-home` 허브, `emergency-room`, `giwon-assistant-api` 같은 독립 서비스들을 중심으로 정리하고 있습니다.
+최근 공개 저장소는 `giwon-home` 허브, `emergency-room`, `giwon-assistant-api`, `HomeHarmony`, `TripMemo` 같은 독립 서비스들을 중심으로 정리하고 있습니다.
 
 <div align="center">
 
@@ -44,6 +44,10 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
   현재 위치 기반으로 주변 응급실 병상 현황을 지도와 리스트로 보여주는 프론트엔드
 - [emergency-room-backend](https://github.com/giwon1130/emergency-room-backend)
   공공 응급의료 API, PostGIS, Redis 기반으로 위치 조회와 상태 요약을 제공하는 백엔드
+- [HomeHarmony](https://github.com/giwon1130/HomeHarmony)
+  입지, 예산, 출퇴근 기준을 함께 비교하는 주거 선택 지원 프론트엔드 MVP
+- [TripMemo](https://github.com/giwon1130/TripMemo)
+  JWT 인증과 여행 메모 CRUD를 갖춘 여행 기록 서비스 백엔드
 
 ## 공개 저장소 방향
 공개 저장소는 실무 프로젝트 원본을 올리는 공간이 아니라,
@@ -54,6 +58,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 - [giwon-assistant-api](https://github.com/giwon1130/giwon-assistant-api)
 - [emergency-room-frontend](https://github.com/giwon1130/emergency-room-frontend)
 - [emergency-room-backend](https://github.com/giwon1130/emergency-room-backend)
+- [HomeHarmony](https://github.com/giwon1130/HomeHarmony)
 - [base-spring-template](https://github.com/giwon1130/base-spring-template)
 - [TripMemo](https://github.com/giwon1130/TripMemo)
 
