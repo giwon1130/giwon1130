@@ -39,7 +39,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 - [giwon-home-api](https://github.com/giwon1130/giwon-home-api)
   허브에서 사용하는 공개 프로필/프로젝트 카탈로그 API 서버
 - [giwon-assistant-api](https://github.com/giwon1130/giwon-assistant-api)
-  아침 브리핑, 뉴스/날씨 요약, 아이디어 저장과 브리핑 이력 관리를 제공하는 개인용 AI 비서 API
+  아침 브리핑 자동 생성, 뉴스/날씨 요약, 아이디어 저장과 브리핑 이력 관리를 제공하는 개인용 AI 비서 API
 - [emergency-room-frontend](https://github.com/giwon1130/emergency-room-frontend)
   현재 위치 기반으로 주변 응급실 병상 현황을 지도와 리스트로 보여주는 프론트엔드
 - [emergency-room-backend](https://github.com/giwon1130/emergency-room-backend)
