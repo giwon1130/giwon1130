@@ -7,7 +7,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 백엔드 구현에 강점이 있지만, 최근에는 `giwon-home` 같은 허브와
 `emergency-room`, `giwon-assistant-api`, `HomeHarmony`, `TripMemo` 같은 독립 서비스들을 직접 만들며
 제품 관점에서 공개 저장소를 정리하고 있습니다.
-최근에는 `MetroPulse`처럼 실시간 지하철 도착정보 OpenAPI와 혼잡도 데이터, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 시계열, 출근길 알림을 함께 다루는 교통 서비스도 새로 확장하고 있습니다.
+최근에는 `MetroPulse`처럼 실시간 지하철 도착정보 OpenAPI와 혼잡도 데이터, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 전체 역 마스터 확장 구조를 함께 다루는 교통 서비스도 새로 확장하고 있습니다.
 실무 대표 프로젝트는 보안상 공개 저장소로 제공할 수 없어
 문제, 역할, 해결 방식, 성과 중심으로 노션 포트폴리오에 정리했습니다.
 
@@ -50,7 +50,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 - [TripMemo](https://github.com/giwon1130/TripMemo)
   여행(trip), 장소, 메모를 함께 묶고 검색·필터·대시보드·타임라인 조회를 제공하는 여행 기록 서비스 백엔드
 - [metro-pulse-backend](https://github.com/giwon1130/metro-pulse-backend)
-  실시간 지하철 도착정보 OpenAPI와 30분 단위 평균 혼잡도, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 혼잡도 시계열, 출근길 알림을 함께 제공하는 교통 서비스 백엔드
+  실시간 지하철 도착정보 OpenAPI와 30분 단위 평균 혼잡도, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 전체 역 마스터 확장 구조를 함께 제공하는 교통 서비스 백엔드
 
 ## 공개 저장소 방향
 공개 저장소는 실무 프로젝트 원본을 올리는 공간이 아니라,
