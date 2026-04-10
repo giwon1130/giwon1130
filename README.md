@@ -12,7 +12,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 최근에는 `MetroPulse`처럼 실시간 지하철 도착정보 OpenAPI와 혼잡도 데이터, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 전체 역 마스터 확장 구조를 함께 다루는 교통 서비스를 확장하고 있습니다.
 또 `ShelterNow`처럼 현재 위치 기준으로 가까운 무더위쉼터, 한파쉼터, 민방위대피소, 임시주거시설을 탐색하고 운영 상태 필터, 거리/수용인원 정렬, Leaflet 지도 탐색, 전국 주요 도시 샘플 데이터를 제공하는 공공 안전 서비스도 추가했습니다.
 또 `RouteOps`처럼 호출형 이동 서비스 운영자를 위해 권역 수요, 차량 상태, 재배치 추천, 시나리오 기반 운영 브리핑을 함께 제공하는 운영 콘솔도 새로 구축했습니다.
-또 `SignalDesk`처럼 한국/미국 시장을 분리해 지수 차트, 수급, 공포지표, 뉴스 군집화, 포트폴리오, AI 추천, 모의투자를 한 흐름으로 제공하는 주식 인텔리전스 서비스도 공개했습니다.
+또 `SignalDesk`처럼 한국/미국 시장을 분리해 지수 차트, 수급, 공포지표, 뉴스 군집화, 포트폴리오, AI 추천, 모의투자를 한 흐름으로 제공하는 주식 인텔리전스 서비스를 웹과 모바일 앱(Expo + React Native)으로 공개했습니다.
 실무 대표 프로젝트는 보안상 공개 저장소로 제공할 수 없어
 문제, 역할, 해결 방식, 성과 중심으로 노션 포트폴리오에 정리했습니다.
 
@@ -66,6 +66,8 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
   KRX/FRED/CBOE/Google News 기반 시장 데이터와 사용자 저장 API를 제공하는 SignalDesk 백엔드
 - [signal-desk-web](https://github.com/giwon1130/signal-desk-web)
   지수 차트, 뉴스 군집화, AI 추천 연관 뉴스, 포트폴리오/모의투자 UI를 제공하는 SignalDesk 프론트엔드
+- [signal-desk-app](https://github.com/giwon1130/signal-desk-app)
+  시장 요약, 캔들 차트(이동평균선 포함), AI 추천 로그를 제공하는 SignalDesk 모바일 앱(Expo + React Native)
 - [metro-pulse-backend](https://github.com/giwon1130/metro-pulse-backend)
   실시간 지하철 도착정보 OpenAPI와 30분 단위 평균 혼잡도, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 전체 역 마스터 확장 구조를 함께 제공하는 교통 서비스 백엔드
 - [shelter-now-backend](https://github.com/giwon1130/shelter-now-backend)
@@ -88,6 +90,7 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
 - [signal-desk](https://github.com/giwon1130/signal-desk)
 - [signal-desk-api](https://github.com/giwon1130/signal-desk-api)
 - [signal-desk-web](https://github.com/giwon1130/signal-desk-web)
+- [signal-desk-app](https://github.com/giwon1130/signal-desk-app)
 - [metro-pulse-backend](https://github.com/giwon1130/metro-pulse-backend)
 - [metro-pulse-frontend](https://github.com/giwon1130/metro-pulse-frontend)
 - [shelter-now-backend](https://github.com/giwon1130/shelter-now-backend)
