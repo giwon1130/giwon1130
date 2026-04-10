@@ -3,20 +3,13 @@
 문제를 서비스와 제품 단위로 구조화하고, 실제로 동작하는 형태까지 연결하는 제품 개발자입니다.
 
 요즘은 코드를 많이 작성하는 능력보다 문제를 정확히 정의하고 빠르게 검증해 해결하는 능력이 더 중요하다고 보고,
-AI 도구를 활용해 요구사항 정리 -> 실험 -> 검증 -> 개선 사이클을 짧게 가져가고 있습니다.
-Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
-조회 성능 개선, 비동기 처리 구조 설계, 운영 안정화 작업을 수행해왔습니다.
-백엔드 구현에 강점이 있지만, 최근에는 `giwon-home` 같은 허브와
-`emergency-room`, `giwon-assistant-api`, `HomeHarmony`, `TripMemo` 같은 독립 서비스들을 직접 만들며
-제품 관점에서 공개 저장소를 정리하고 있습니다.
-최근에는 `MetroPulse`처럼 실시간 지하철 도착정보 OpenAPI와 혼잡도 데이터, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 전체 역 마스터 확장 구조를 함께 다루는 교통 서비스를 확장하고 있습니다.
-또 `ShelterNow`처럼 현재 위치 기준으로 가까운 무더위쉼터, 한파쉼터, 민방위대피소, 임시주거시설을 탐색하고 운영 상태 필터, 거리/수용인원 정렬, Leaflet 지도 탐색, 전국 주요 도시 샘플 데이터를 제공하는 공공 안전 서비스도 추가했습니다.
-또 `RouteOps`처럼 호출형 이동 서비스 운영자를 위해 권역 수요, 차량 상태, 재배치 추천, 시나리오 기반 운영 브리핑을 함께 제공하는 운영 콘솔도 새로 구축했습니다.
-또 `SignalDesk`처럼 한국/미국 시장을 분리해 지수 차트, 수급, 공포지표, 뉴스 군집화, 포트폴리오, AI 추천, 모의투자를 한 흐름으로 제공하는 주식 인텔리전스 서비스를 웹과 모바일 앱(Expo + React Native)으로 공개했습니다.
-실무 대표 프로젝트는 보안상 공개 저장소로 제공할 수 없어
-문제, 역할, 해결 방식, 성과 중심으로 노션 포트폴리오에 정리했습니다.
+AI 도구를 활용해 요구사항 정리 → 실험 → 검증 → 개선 사이클을 짧게 가져가고 있습니다.
 
-최근 공개 저장소는 `giwon-home` 허브, `emergency-room`, `giwon-assistant-api`, `HomeHarmony`, `TripMemo`, `MetroPulse`, `ShelterNow`, `RouteOps`, `SignalDesk` 같은 독립 서비스들을 중심으로 정리하고 있습니다.
+Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서 조회 성능 개선, 비동기 처리 구조 설계, 운영 안정화 작업을 수행해왔습니다.
+백엔드 구현에 강점이 있고, 최근에는 `giwon-home` 허브를 중심으로 다양한 독립 서비스를 직접 만들며 제품 관점으로 공개 저장소를 정리하고 있습니다.
+
+주요 공개 서비스로는 교통(`MetroPulse`), 공공 안전(`ShelterNow`), 이동 서비스 운영(`RouteOps`), 주식 인텔리전스(`SignalDesk` — 웹/모바일 앱 포함) 등이 있습니다.
+실무 대표 프로젝트는 보안상 노션 포트폴리오에 문제-역할-해결-성과 중심으로 정리했습니다.
 
 <div align="center">
 
@@ -70,8 +63,12 @@ Kotlin, Spring Boot, PostgreSQL/PostGIS, Redis, Kafka 기반 환경에서
   시장 요약, 캔들 차트(이동평균선 포함), AI 추천 로그를 제공하는 SignalDesk 모바일 앱(Expo + React Native)
 - [metro-pulse-backend](https://github.com/giwon1130/metro-pulse-backend)
   실시간 지하철 도착정보 OpenAPI와 30분 단위 평균 혼잡도, 환승역 다중 노선 표시, 지하철 노선도 스타일 탐색, 노선별·방향별 도착 보드, 전체 역 마스터 확장 구조를 함께 제공하는 교통 서비스 백엔드
+- [metro-pulse-frontend](https://github.com/giwon1130/metro-pulse-frontend)
+  역 검색, 지하철 노선도 스타일 탐색, 실시간 도착정보 카드, 혼잡도 시계열 보기를 제공하는 교통 서비스 프론트엔드
 - [shelter-now-backend](https://github.com/giwon1130/shelter-now-backend)
   현재 위치 기준으로 가까운 무더위쉼터, 한파쉼터, 민방위대피소, 임시주거시설을 탐색하고 운영 상태 필터, 거리/수용인원 정렬, Leaflet 지도 탐색, 전국 주요 도시 샘플 데이터를 함께 제공하는 공공 안전 서비스 백엔드
+- [shelter-now-frontend](https://github.com/giwon1130/shelter-now-frontend)
+  Leaflet 기반 지도와 리스트로 대피소/쉼터를 탐색하고 유형·운영 상태·정렬 필터를 제공하는 공공 안전 서비스 프론트엔드
 
 ## 공개 저장소 방향
 공개 저장소는 실무 프로젝트 원본을 올리는 공간이 아니라,
