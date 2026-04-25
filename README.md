@@ -58,8 +58,13 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 <div align="center">
 
-![Giwon's GitHub stats](https://github-readme-stats.vercel.app/api?username=giwon1130&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Giwon's GitHub stats](https://github-readme-stats.vercel.app/api?username=giwon1130&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_rank=true&include_all_commits=true)
+![Streak](https://streak-stats.demolab.com?user=giwon1130&theme=tokyonight&hide_border=true)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=giwon1130&theme=tokyo-night&hide_border=true&area=true)
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=giwon1130&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+![Trophies](https://github-profile-trophy.vercel.app/?username=giwon1130&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=10)
 
 </div>
 
