@@ -108,6 +108,7 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 | Project | Stack | Description |
 |---|---|---|
 | **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) · [compose](https://github.com/giwon1130/baby-log) | Spring Boot · RN · Expo | 신생아 수유·기저귀·성장 기록 + 가족 공유 |
+| **Codie · 코디** — [app](https://github.com/giwon1130/codie-app) · [api](https://github.com/giwon1130/codie-api) | Spring Boot · RN/Expo · Next.js | AI 코디 추천 (모노레포) |
 | [HomeHarmony](https://github.com/giwon1130/HomeHarmony) | TypeScript | 직주근접·예산·가족형 모드 + 생활권 추천 점수 |
 | [TripMemo](https://github.com/giwon1130/TripMemo) | Java | 여행·장소·메모를 묶은 여행 기록 서비스 |
 | **otaku-feed** — [app](https://github.com/giwon1130/otaku-feed) · [api](https://github.com/giwon1130/otaku-feed-api) | RN · Kotlin · JWT | 애니 추천 앱 |
