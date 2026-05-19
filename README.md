@@ -19,7 +19,7 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 - **BabyLog** — 신생아 수유·기저귀·성장 기록 앱 (Spring Boot + React Native, 가족 공유)
 - **SignalDesk** — 한/미 시장 인텔리전스 (차트·수급·뉴스 군집화·AI 추천·모의투자)
-- **OtakuFeed** — 애니 추천 앱 (Kotlin + React Native)
+- **Codie · 코디** — AI 코디 추천 앱 (Spring Boot + RN/Expo + Next.js 모노레포)
 - AI 도구로 *요구사항 → 실험 → 검증 → 개선* 사이클을 짧게 돌리며 제품 다듬는 중
 
 ## Tech Stack
