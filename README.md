@@ -17,9 +17,9 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 ## Now · 요즘 작업
 
-- **BabyLog** — 신생아 수유·기저귀·성장 기록 앱 (Spring Boot + React Native, 가족 공유)
-- **SignalDesk** — 한/미 시장 인텔리전스 (차트·수급·뉴스 군집화·AI 추천·모의투자)
-- **Codie · 코디** — AI 코디 추천 앱 (Spring Boot + RN/Expo + Next.js 모노레포)
+- **BabyLog** — 신생아 수유·기저귀·성장 기록 앱 (Spring Boot + React Native, 가족 공유 · TestFlight 베타 운영 중)
+- **SignalDesk** — 한/미 시장 인텔리전스 (차트·수급·뉴스 군집화·합성 위험도·AI 추천)
+- **Codie · 코디** — AI 코디 추천 앱 — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 종합 (Spring Boot + RN/Expo + Next.js 모노레포)
 - AI 도구로 *요구사항 → 실험 → 검증 → 개선* 사이클을 짧게 돌리며 제품 다듬는 중
 
 ## Tech Stack
@@ -93,7 +93,7 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 | Project | Stack | Description |
 |---|---|---|
-| **SignalDesk** — [repo](https://github.com/giwon1130/signal-desk) · [api](https://github.com/giwon1130/signal-desk-api) · [web](https://github.com/giwon1130/signal-desk-web) · [app](https://github.com/giwon1130/signal-desk-app) | Kotlin · TS · RN | 한/미 시장 인텔리전스 — 차트·수급·뉴스 군집화·AI 추천·모의투자 |
+| **SignalDesk** — [repo](https://github.com/giwon1130/signal-desk) · [api](https://github.com/giwon1130/signal-desk-api) · [app](https://github.com/giwon1130/signal-desk-app) | Kotlin · TS · RN | 한/미 시장 인텔리전스 — 차트·수급·뉴스 군집화·합성 위험도(PizzINT+VIX+뉴스 1~10)·AI 추천. 웹은 `signal-desk-app/src/web` Expo 빌드로 통합 |
 
 ### Public & Safety
 
@@ -107,8 +107,8 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 | Project | Stack | Description |
 |---|---|---|
-| **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) · [compose](https://github.com/giwon1130/baby-log) | Spring Boot · RN · Expo | 신생아 수유·기저귀·성장 기록 + 가족 공유 |
-| **Codie · 코디** — [app](https://github.com/giwon1130/codie-app) · [api](https://github.com/giwon1130/codie-api) | Spring Boot · RN/Expo · Next.js | AI 코디 추천 (모노레포) |
+| **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) · [compose](https://github.com/giwon1130/baby-log) | Spring Boot · RN · Expo | 신생아 수유·기저귀·성장 기록 + 가족 공유. TestFlight 베타 운영 중 |
+| **Codie · 코디** — [app](https://github.com/giwon1130/codie-app) · [api](https://github.com/giwon1130/codie-api) | Spring Boot · RN/Expo · Next.js | AI 코디 추천 — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 종합 (모바일 + 웹 모노레포) |
 | [HomeHarmony](https://github.com/giwon1130/HomeHarmony) | TypeScript | 직주근접·예산·가족형 모드 + 생활권 추천 점수 |
 | [TripMemo](https://github.com/giwon1130/TripMemo) | Java | 여행·장소·메모를 묶은 여행 기록 서비스 |
 | **otaku-feed** — [app](https://github.com/giwon1130/otaku-feed) · [api](https://github.com/giwon1130/otaku-feed-api) | RN · Kotlin · JWT | 애니 추천 앱 |
