@@ -17,9 +17,16 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 ## Now · 요즘 작업
 
-- **BabyLog** — 신생아 수유·기저귀·성장 기록 앱 (Spring Boot + React Native, 가족 공유 · TestFlight 베타 운영 중)
+**운영 중 · TestFlight 업데이트**
 - **SignalDesk** — 한/미 시장 인텔리전스 (차트·수급·뉴스 군집화·합성 위험도·AI 추천)
-- **Codie · 코디** — AI 코디 추천 앱 — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 종합 (Spring Boot + RN/Expo + Next.js 모노레포)
+- **BabyLog** — 신생아 수유·기저귀·수면·성장 기록 + 가족 실시간 공유
+
+**새로 개발 중 · 오픈 예정**
+- **Codie · 코디** — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 를 종합한 AI 코디 추천 (Spring Boot + RN/Expo + Next.js 모노레포)
+
+**관심사 · 탐색 중**
+- **스마트홈** — SmartThings 연동된 집 IoT 를 더 잘 관리하기 위한 개인 도구. 직접 빌드 / Home Assistant 위에 자체 UX 결합 / SmartThings API 부터 탐색 — 방향 검토 중
+
 - AI 도구로 *요구사항 → 실험 → 검증 → 개선* 사이클을 짧게 돌리며 제품 다듬는 중
 
 ## Tech Stack
