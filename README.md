@@ -87,6 +87,7 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 ## 실무 경험 · Experience
 
+- 위성영상 공급사 API를 연계한 **영상 구매 스토어** 설계·개발 (진행 중)
 - FastAPI 기반 라벨링 툴 백엔드를 **Kotlin Spring Boot**로 전환하며 팀 주력 스택으로 통합
 - **Kafka 기반 비동기 처리 구조**로 변화탐지·객체탐지 데이터 처리 및 리포트 자동화 파이프라인 구축
 - 위성·항공 이미지 분석 플랫폼에서 **공간 데이터 조회 구조 개선** 및 운영 안정화
