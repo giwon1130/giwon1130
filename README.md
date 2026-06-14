@@ -17,12 +17,15 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 ## Now · 요즘 작업
 
-**운영 중 · TestFlight 업데이트**
+**운영 오픈 진행 중**
 - **SignalDesk** — 한/미 시장 인텔리전스 (차트·수급·뉴스 군집화·합성 위험도·AI 추천)
-- **BabyLog** — 신생아 수유·기저귀·수면·성장 기록 + 가족 실시간 공유
-
-**새로 개발 중 · 오픈 예정**
 - **HomeFit** — 청약·주거 정보를 통합해 신혼부부·가족에게 맞는 집을 찾아주는 앱. 청약 일정·자격·단지 정보 정리 + 맞춤 추천 (Spring Boot + Next.js + RN/Expo · Railway)
+
+**완성 · 운영 경험 (현재 서버 일시 중단)**
+- **BabyLog** — 신생아 수유·기저귀·수면·성장 기록 + 가족 실시간 공유
+- **OtakuFeed** — AniList·라프텔 기반 애니 추천 피드, 스와이프로 학습한 취향에 맞춰 구성 (RN/Expo + Kotlin/Spring)
+
+**오픈 전 개발 중**
 - **Codie · 코디** — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 를 종합한 AI 코디 추천 (Spring Boot + RN/Expo + Next.js 모노레포)
 
 **관심사 · 탐색 중**
