@@ -112,19 +112,15 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 | Project | Stack | Description |
 |---|---|---|
 | **emergency-room** — [api](https://github.com/giwon1130/emergency-room-backend) · [web](https://github.com/giwon1130/emergency-room-frontend) | Kotlin · TS · PostGIS · Redis | 공공 응급의료 API 기반, 주변 응급실 병상 실시간 탐색 |
-| **shelter-now** — [api](https://github.com/giwon1130/shelter-now-backend) · [web](https://github.com/giwon1130/shelter-now-frontend) | Kotlin · TS | 현재 위치 기반 가까운 대피소·쉼터 탐색 |
-| **metro-pulse** — [api](https://github.com/giwon1130/metro-pulse-backend) · [web](https://github.com/giwon1130/metro-pulse-frontend) | Kotlin · TS | 실시간 지하철 도착 + 시간대 혼잡도 |
 
 ### Daily Life
 
 | Project | Stack | Description |
 |---|---|---|
-| **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) · [compose](https://github.com/giwon1130/baby-log) | Spring Boot · RN · Expo | 신생아 수유·기저귀·성장 기록 + 가족 공유. TestFlight 베타 운영 중 |
-| **Codie · 코디** — [app](https://github.com/giwon1130/codie-app) · [api](https://github.com/giwon1130/codie-api) | Spring Boot · RN/Expo · Next.js | AI 코디 추천 — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 종합 (모바일 + 웹 모노레포) |
+| **HomeFit** — [repo](https://github.com/giwon1130/homefit) | Spring Boot · Next.js · RN/Expo | 청약·주거 정보 통합, 신혼부부·가족 맞춤 집 찾기 (청약 일정·자격·단지 정보 + 추천) |
+| **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) · [compose](https://github.com/giwon1130/baby-log) | Spring Boot · RN · Expo | 신생아 수유·기저귀·성장 기록 + 가족 공유 |
+| **otaku-feed** — [app](https://github.com/giwon1130/otaku-feed) · [api](https://github.com/giwon1130/otaku-feed-api) | RN · Kotlin · JWT | AniList·라프텔 기반 애니 추천 피드 |
 | [HomeHarmony](https://github.com/giwon1130/HomeHarmony) | TypeScript | 직주근접·예산·가족형 모드 + 생활권 추천 점수 |
-| [TripMemo](https://github.com/giwon1130/TripMemo) | Java | 여행·장소·메모를 묶은 여행 기록 서비스 |
-| **otaku-feed** — [app](https://github.com/giwon1130/otaku-feed) · [api](https://github.com/giwon1130/otaku-feed-api) | RN · Kotlin · JWT | 애니 추천 앱 |
-| **route-ops** — [api](https://github.com/giwon1130/route-ops-api) · [web](https://github.com/giwon1130/route-ops-web) | Kotlin · TS | DRT(호출형 이동) 운영 콘솔 — 수요·차량·재배치 추천 |
 
 ### Personal Hub & Templates
 
