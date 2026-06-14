@@ -22,6 +22,7 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 - **BabyLog** — 신생아 수유·기저귀·수면·성장 기록 + 가족 실시간 공유
 
 **새로 개발 중 · 오픈 예정**
+- **HomeFit** — 청약·주거 정보를 통합해 신혼부부·가족에게 맞는 집을 찾아주는 앱. 청약 일정·자격·단지 정보 정리 + 맞춤 추천 (Spring Boot + Next.js + RN/Expo · Railway)
 - **Codie · 코디** — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 를 종합한 AI 코디 추천 (Spring Boot + RN/Expo + Next.js 모노레포)
 
 **관심사 · 탐색 중**
