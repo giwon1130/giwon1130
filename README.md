@@ -20,6 +20,7 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 **운영 오픈 진행 중**
 - **SignalDesk** — 한/미 시장 인텔리전스 (차트·수급·뉴스 군집화·합성 위험도·AI 추천)
 - **HomeFit** — 청약·주거 정보를 통합해 신혼부부·가족에게 맞는 집을 찾아주는 앱. 청약 일정·자격·단지 정보 정리 + 맞춤 추천 (Spring Boot + Next.js + RN/Expo · Railway)
+- **DevRadar** — AI 코딩 툴(Claude Code·Codex·Gemini·Cursor)의 새 모델·기능·가격을 AI가 요약·분류해 푸시로 알려주는 앱. 커뮤니티 반응·모델 가격 추적 (Kotlin/Spring Boot + RN/Expo · Railway · TestFlight)
 
 **완성 · 운영 경험 (현재 서버 일시 중단)**
 - **BabyLog** — 신생아 수유·기저귀·수면·성장 기록 + 가족 실시간 공유
@@ -121,6 +122,12 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 | **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) · [compose](https://github.com/giwon1130/baby-log) | Spring Boot · RN · Expo | 신생아 수유·기저귀·성장 기록 + 가족 공유 |
 | **otaku-feed** — [app](https://github.com/giwon1130/otaku-feed) · [api](https://github.com/giwon1130/otaku-feed-api) | RN · Kotlin · JWT | AniList·라프텔 기반 애니 추천 피드 |
 | [HomeHarmony](https://github.com/giwon1130/HomeHarmony) | TypeScript | 직주근접·예산·가족형 모드 + 생활권 추천 점수 |
+
+### Dev & AI Tools
+
+| Project | Stack | Description |
+|---|---|---|
+| **DevRadar** 🛰️ — [api](https://github.com/giwon1130/devradar-api) · [app](https://github.com/giwon1130/devradar-app) | Kotlin · Spring Boot · RN/Expo · Gemini | AI 코딩 툴(Claude Code·Codex·Gemini·Cursor)의 새 모델·기능·가격을 AI가 요약·분류해 알림. 커뮤니티 반응(HN) + 모델 가격 추적 + 푸시 |
 
 ### Personal Hub & Templates
 
