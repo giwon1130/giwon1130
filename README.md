@@ -17,20 +17,16 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 ## Now · 요즘 작업
 
-**운영 오픈 진행 중**
-- **SignalDesk** — 한/미 시장 인텔리전스 (차트·수급·뉴스 군집화·합성 위험도·AI 추천)
-- **HomeFit** — 청약·주거 정보를 통합해 신혼부부·가족에게 맞는 집을 찾아주는 앱. 청약 일정·자격·단지 정보 정리 + 맞춤 추천 (Spring Boot + Next.js + RN/Expo · Railway)
-- **DevRadar** — AI 코딩 툴(Claude Code·Codex·Gemini·Cursor)의 새 모델·기능·가격을 AI가 요약·분류해 푸시로 알려주는 앱. 커뮤니티 반응·모델 가격 추적 (Kotlin/Spring Boot + RN/Expo · Railway · TestFlight)
+**현재 집중 중**
+- **SignalDesk** — 한/미 시장 인텔리전스. 차트·수급·뉴스 브리핑·시장 변동성 시나리오·AI 추천을 웹과 iOS에 연결해 운영 중
+- **Codie · 코디** — 옷장·날씨·캘린더(TPO)·피드백을 조합한 개인화 코디 추천. Phase 2 완료 후 AI 스타일 가이드와 모바일 UX를 고도화 중
+- **Card Together · 카드투게더** — 여러 카드의 문자 결제를 자동 수집하고, 가족이 결제월 기준 공동 예산과 다음 결제액을 함께 보는 iPhone 앱 MVP
 
-**완성 · 운영 경험 (현재 서버 일시 중단)**
-- **BabyLog** — 신생아 수유·기저귀·수면·성장 기록 + 가족 실시간 공유
-- **OtakuFeed** — AniList·라프텔 기반 애니 추천 피드, 스와이프로 학습한 취향에 맞춰 구성 (RN/Expo + Kotlin/Spring)
-
-**오픈 전 개발 중**
-- **Codie · 코디** — 옷장 디지털화 + 날씨·퍼스널컬러·TPO 를 종합한 AI 코디 추천 (Spring Boot + RN/Expo + Next.js 모노레포)
-
-**관심사 · 탐색 중**
-- **스마트홈** — SmartThings 연동된 집 IoT 를 더 잘 관리하기 위한 개인 도구. 직접 빌드 / Home Assistant 위에 자체 UX 결합 / SmartThings API 부터 탐색 — 방향 검토 중
+**최근 완성한 제품 실험**
+- **청약 알리미** — HomeFit의 과설계를 덜어내고 공고 수집·자격 판정·맞춤 알림·지도 탐색에 집중한 리부트. 현재 서버 운영 중단
+- **DevRadar** — AI 코딩 도구의 릴리스·가격·커뮤니티 반응을 수집해 요약하고 푸시하는 TestFlight 프로토타입
+- **BabyLog** — 육아 기록·가족 공유·온디바이스 울음 분석까지 구현한 TestFlight 앱. 현재 백엔드 운영 중단
+- **OtakuFeed** — AniList·라프텔 기반 애니 추천 피드. 백엔드는 종료하고 클라이언트는 로컬 전용으로 유지
 
 - AI 도구로 *요구사항 → 실험 → 검증 → 개선* 사이클을 짧게 돌리며 제품 다듬는 중
 
@@ -104,9 +100,9 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 ### Finance
 
-| Project | Stack | Description |
-|---|---|---|
-| **SignalDesk** — [repo](https://github.com/giwon1130/signal-desk) · [api](https://github.com/giwon1130/signal-desk-api) · [app](https://github.com/giwon1130/signal-desk-app) | Kotlin · TS · RN | 한/미 시장 인텔리전스 — 차트·수급·뉴스 군집화·합성 위험도(PizzINT+VIX+뉴스 1~10)·AI 추천. 웹은 `signal-desk-app/src/web` Expo 빌드로 통합 |
+| Project | Stack | Status | Description |
+|---|---|---|---|
+| **SignalDesk** — [repo](https://github.com/giwon1130/signal-desk) · [api](https://github.com/giwon1130/signal-desk-api) · [app](https://github.com/giwon1130/signal-desk-app) · [live web](https://giwon1130.github.io/signal-desk-app/) | Kotlin · TS · RN | **Live · TestFlight** | 한/미 시장 인텔리전스 — 차트·수급·뉴스 브리핑·시장 변동성 시나리오·AI 추천. 웹은 Expo 빌드로 통합 |
 
 ### Public & Safety
 
@@ -116,18 +112,20 @@ Turning fuzzy problems into shipped services — backend, web, mobile.
 
 ### Daily Life
 
-| Project | Stack | Description |
-|---|---|---|
-| **HomeFit** — [repo](https://github.com/giwon1130/homefit) | Spring Boot · Next.js · RN/Expo | 청약·주거 정보 통합, 신혼부부·가족 맞춤 집 찾기 (청약 일정·자격·단지 정보 + 추천) |
-| **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) · [compose](https://github.com/giwon1130/baby-log) | Spring Boot · RN · Expo | 신생아 수유·기저귀·성장 기록 + 가족 공유 |
-| **otaku-feed** — [app](https://github.com/giwon1130/otaku-feed) · [api](https://github.com/giwon1130/otaku-feed-api) | RN · Kotlin · JWT | AniList·라프텔 기반 애니 추천 피드 |
-| [HomeHarmony](https://github.com/giwon1130/HomeHarmony) | TypeScript | 직주근접·예산·가족형 모드 + 생활권 추천 점수 |
+| Project | Stack | Status | Description |
+|---|---|---|---|
+| **Codie · 코디** — [app](https://github.com/giwon1130/codie-app) · [api](https://github.com/giwon1130/codie-api) | Kotlin · Spring Boot · RN/Expo · Next.js | **Active · API live** | 옷장·날씨·퍼스널컬러·캘린더 TPO·피드백을 조합한 개인화 코디 추천. Phase 2 완료 |
+| **Card Together** — [app](https://github.com/giwon1130/card-together-app) · [api](https://github.com/giwon1130/card-together-api) | Kotlin · Spring Boot · RN/Expo | **TestFlight MVP** | 카드 문자 자동 수집, 가족 공유, 카드별 결제 주기를 반영한 결제월 공동 예산 |
+| **청약 알리미** — [app](https://github.com/giwon1130/cheongyak-alarm-app) · [api](https://github.com/giwon1130/cheongyak-alarm-api) | Kotlin · Spring Boot · RN/Expo | Prototype · server paused | 공고 수집·자격 판정·맞춤 알림·지도 탐색. HomeFit에서 핵심 가치만 남겨 리부트 |
+| **BabyLog** — [api](https://github.com/giwon1130/baby-log-api) · [app](https://github.com/giwon1130/baby-log-app) | Spring Boot · RN/Expo · Swift | Shipped · backend paused | 신생아 수유·기저귀·수면·성장 기록, 가족 공유, 온디바이스 울음 분석 |
+| **OtakuFeed** — [app](https://github.com/giwon1130/otaku-feed) · [api](https://github.com/giwon1130/otaku-feed-api) | RN/Expo · Kotlin | Local-only | AniList·라프텔 기반 애니 추천 피드. 백엔드 종료 후 로컬 모드 유지 |
+| **HomeFit** — [repo](https://github.com/giwon1130/homefit) | Spring Boot · Next.js · RN/Expo | Superseded · service retired | 청약·주거 정보 통합 실험. 학습과 자격 판정 엔진을 `청약 알리미`로 계승 |
 
 ### Dev & AI Tools
 
-| Project | Stack | Description |
-|---|---|---|
-| **DevRadar** 🛰️ — [api](https://github.com/giwon1130/devradar-api) · [app](https://github.com/giwon1130/devradar-app) | Kotlin · Spring Boot · RN/Expo · Gemini | AI 코딩 툴(Claude Code·Codex·Gemini·Cursor)의 새 모델·기능·가격을 AI가 요약·분류해 알림. 커뮤니티 반응(HN) + 모델 가격 추적 + 푸시 |
+| Project | Stack | Status | Description |
+|---|---|---|---|
+| **DevRadar** 🛰️ — [api](https://github.com/giwon1130/devradar-api) · [app](https://github.com/giwon1130/devradar-app) | Kotlin · Spring Boot · RN/Expo · Gemini | TestFlight prototype · server paused | AI 코딩 도구의 새 모델·기능·가격을 수집해 AI가 요약·분류. HN 반응·모델 가격 추적·푸시까지 구현 |
 
 ### Personal Hub & Templates
 
