@@ -38,7 +38,7 @@ Kotlin · Java · Spring Boot · AI Integration · Geospatial Systems
 
 ### Backend platform and data workflows
 
-- 월간 약 30만 건으로 기억하는 변화탐지 객체·폴리곤 처리와 PDF·DOCX 리포트 자동 생성
+- 월간 약 30만 건 규모로 추정되는 변화탐지 객체·폴리곤 처리와 PDF·DOCX 리포트 자동 생성
 - Kafka 기반 비동기 결과 처리, Polling·SSE 상태 전달과 재처리 흐름
 - Python·FastAPI 라벨링 서버를 Kotlin·Spring Boot로 전환하고 실제 작업 시나리오로 검증
 - 국내외 위성영상 공급사 3곳의 상이한 API를 공통 검색·주문·다운로드 흐름으로 통합
