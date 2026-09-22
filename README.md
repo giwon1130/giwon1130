@@ -2,10 +2,10 @@
 
 # Giwon Im · 임기원
 
-**Backend Platform Engineer · Product-minded Engineer**
+**Backend · Platform Engineer**
 
-인프라 운영에서 시작해 백엔드 플랫폼, AI 모델 연동과 공간 데이터까지 확장해왔습니다.<br>
-Turning complex systems into reliable products — backend, AI integration, geospatial, and mobile.
+Kotlin·Java로 위성영상 분석과 공간 데이터 서비스를 개발합니다.<br>
+인프라 운영에서 시작해 API 구현, AI 모델 연동, 배포와 운영 문제를 함께 다뤄왔습니다.
 
 [![Email](https://img.shields.io/badge/Email-gwim1130@naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:gwim1130@naver.com)
 [![Notion](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=notion&logoColor=white)](https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986)
@@ -17,23 +17,18 @@ Turning complex systems into reliable products — backend, AI integration, geos
 
 ## Now · 요즘 작업
 
-> 프로젝트와 출시 상태는 **2026-09-05** 기준입니다.
+> **2026-09-22 업데이트** · 회사 프로젝트의 진행 상태는 2026-09-15까지 확인한 기록 기준입니다.
 
 **업무에서**
 
-- 위성영상 분석 플랫폼 **OVISION**에서 Kotlin·Spring Boot 백엔드를 개발하고 있습니다.
-- 비주얼·텍스트 프롬프트를 정책에 맞게 조합하고 **Triton 벡터화 → 인퍼런스 → 클래스 매핑·NMS → 저장·지도 표시**로 연결하는 IOD 기능을 구현했습니다.
-- 장시간 추론의 재시도·중복 요청 방지, 프롬프트 적용 시점과 기존 모델 결과의 충돌 정책을 다룹니다.
-- Jira·GitHub·E2E·CI·ArgoCD를 연결하되 사람 승인과 범위 제한을 두는 Agentic 개발 흐름을 운영하고 있습니다.
+- SIA에서 위성영상 분석 플랫폼 **OVISION**의 Kotlin·Spring Boot 백엔드를 개발합니다.
+- 비주얼·텍스트 프롬프트로 객체를 탐지하는 **IOD** 기능의 입력 API, 적용 시점의 입력 보존, 프로젝트별 권한과 Triton 벡터화 연동을 맡고 있습니다.
+- 분석 결과 조회 지연과 대용량 결과 처리 중 발생하는 메모리 부족 문제를 개선하고, Kubernetes·Helm 배포 설정을 관리합니다.
+- AI 코딩 도구를 팀에서 함께 쓰며 변경 범위, 개발자 승인, E2E 검증과 CI 반복 실행 제한을 정리했습니다.
 
-**직접 출시한 제품**
+**업무 밖에서**
 
-- **[SignalDesk](https://apps.apple.com/kr/app/signal-desk-%ED%88%AC%EC%9E%90-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C/id6770443767)** — 복수 시장 데이터와 Gemini 기반 브리핑을 연결한 투자 대시보드
-- **[Codie · 코디](https://apps.apple.com/kr/app/codie-ai-%EC%BD%94%EB%94%94/id6791064962)** — 옷장·날씨·일정·퍼스널컬러를 반영하는 개인화 코디 추천
-- **[Card Together · 카드투게더](https://apps.apple.com/kr/app/%EC%B9%B4%EB%93%9C%ED%88%AC%EA%B2%8C%EB%8D%94/id6792750711)** — 카드 문자 자동화와 가족 공동 예산 관리
-- **곳곳** — 가본 곳과 가고 싶은 곳을 지도 도감으로 남기는 여행 앱. TestFlight에서 실사용하며 UI·UX 개선 중
-
-출시하지 않은 제품 실험도 TestFlight까지 구현·검증하며 계속할 것과 중단할 것을 직접 판단했습니다.
+SignalDesk, 코디, 카드투게더를 혼자 기획하고 App Store에 출시했습니다. AI 코딩 도구를 활용하면서 구현을 검토하고 테스트·배포·운영을 맡았습니다. 여행 기록 앱 **곳곳**은 TestFlight에서 직접 사용하며 UI·UX를 개선하고 있습니다.
 
 ## Tech Stack
 
@@ -81,27 +76,26 @@ Turning complex systems into reliable products — backend, AI integration, geos
 
 </div>
 
-## 핵심 강점 · Strengths
+## 개발할 때 중요하게 보는 것
 
-- 복잡한 요구를 API·데이터 계약·실행 흐름으로 구체화 · *Turns ambiguity into reliable backend flows*
-- 장시간 AI 작업의 재시도·중복 방지·상태 전달 설계 · *Makes long-running AI workloads operational*
-- 프롬프트·벡터화·추론·모델 결과를 제품 기능으로 연결 · *Bridges AI models and product behavior*
-- Kafka·Redis·PostgreSQL·PostGIS 기반 데이터 처리 · *Builds async and geospatial data pipelines*
-- 레거시 분석부터 실제 작업 검증과 운영 전환까지 수행 · *Modernizes legacy systems with production validation*
-- 문제 정의부터 모바일·백엔드·배포·심사까지 제품 출시 · *Ships products end to end*
+- 오래 걸리는 작업은 재시도와 중복 요청뿐 아니라, 어떤 시점의 입력으로 실행했는지도 남깁니다.
+- 외부 데이터나 AI 응답이 실패했을 때 기존 결과를 유지할지, 오류로 처리할지 함께 정합니다.
+- 티켓 하나를 구현하더라도 연결된 화면·API·배포 설정까지 확인합니다. AI가 만든 변경도 같은 기준으로 검토합니다.
 
 ## 실무 경험 · Experience
 
-- OVISION **프롬프트 기반 IOD**의 API, Triton 벡터화·인퍼런스 연동, 클래스 ID 매핑과 NMS 결과 결합 구현
-- 월간 약 30만 건 규모로 추정되는 변화탐지 객체·폴리곤 처리와 **PDF·DOCX 리포트 자동화**
-- Python·FastAPI 라벨링 서비스를 **Kotlin·Spring Boot**로 전환하고 실제 라벨링 시나리오로 검증
-- 서로 다른 위성영상 공급사 API를 검색·주문·다운로드·상태 흐름으로 통합해 운영 배포
-- 실내 GIS 서버 전환, 포인터 기반 최단 경로와 MongoDB 비정형 데이터 방어 처리
-- LH 가상체험과 누적 가입 회원 약 5,000명의 B2C 디지털트윈 플랫폼 백엔드·AWS 운영
-- AWS Auto Scaling, Blue Green 무중단 배포와 Jenkins CI/CD 구축
-- 폐쇄망 광선로·CCTV GIS 솔루션을 5인 팀 PL로 수행해 2차 납품까지 완료
+인프라 운영 약 2년을 포함해 약 8년의 기술 경력이 있습니다.
 
-> 회사 프로젝트는 보안 가능한 범위에서 [Notion 포트폴리오](https://dev-giwon.notion.site/ce2318d46f3a4b66894ad04d1b20d986)에 문제·역할·판단·결과 중심으로 정리했습니다.
+- **프롬프트 기반 IOD** — 편집 중인 프롬프트와 실행에 적용한 입력을 분리하고, 프로젝트별 소유권·권한·중복 요청 처리를 구현했습니다. 입력·적용·권한 관련 변경은 병합되고 일부는 스테이징에 배포됐습니다. 기존 탐지 결과와의 NMS 보정·통합 저장, 실제 추론 서버 E2E 검증은 후속 작업 중입니다.
+- **월별 집계 SQL 개선** — 조인·중복 제거 비용을 줄이고 인덱스를 조정해 개발 실데이터 검증에서 **11.20초 → 0.744초**, 기존 결과와 차이 0건을 확인했습니다. 동시에 들어온 동일 요청은 진행 중인 DB 실행을 공유하도록 바꿨고, 테스트에서 요청 8건을 DB 1회 실행으로 처리했습니다.
+- **대용량 분석 결과 OOM 개선** — Redis 배치 읽기와 결과 조립 방식을 바꾸고 동시 요청·응답 크기를 제한했습니다. 격리 환경에서 **226,368개 결과·약 400.7MB 입력**을 OOM·재시작 없이 처리했습니다. SQL과 OOM 개선에는 운영 배포 이력이 있으며, 위 수치는 각각의 검증 환경에서 얻은 결과입니다.
+- **분석 결과·리포트** — DataOps팀과 Kafka 메시지에 필요한 데이터를 협의하고 변화탐지 객체·폴리곤 조회, 영상·라벨 렌더링, **PDF·DOCX 보고서 생성과 고객 다운로드**를 구현했습니다.
+- **라벨링 백엔드 전환** — Python 백엔드의 사용자·인증·역할·영상·라벨 API를 **Kotlin·Spring Boot**로 이전했습니다. 기존 요청·응답 규칙을 유지하고 공간 범위 검증과 실제 라벨링 흐름을 확인한 뒤 운영에 반영했습니다.
+- **디지털트윈 서비스** — LH 가상체험 이후 **누적 가입 회원 약 5,000명**의 B2C 서비스에서 외부 3D 엔진을 등록·검색·시뮬레이션·거리뷰와 연결하는 핵심 백엔드를 맡았습니다. AWS Auto Scaling, Blue/Green 배포와 Jenkins 최초 도입도 담당했습니다.
+- **실내 지도와 데이터 정리** — 와따에서 GIS 서버를 Java·Spring Boot로 전환하고, 현장 측위 검증과 DB 쿼리 기반 최단 경로를 구현했습니다. MongoDB에 섞여 들어온 타입 차이를 변환하고 잘못된 데이터는 계산에서 제외했습니다.
+- **폐쇄망 납품** — 광선로·CCTV GIS 관리 솔루션의 **5인 팀 PL**로 주요 백엔드를 구현했습니다. Docker 패키징과 현장 브라우저 호환 문제에 대응해 1차 검수 후 2차 납품까지 수행했습니다.
+
+회사 코드는 공개하지 않습니다. 여기에는 담당 범위와 문제 해결 경험만 요약했습니다.
 
 ## Projects
 
@@ -109,15 +103,15 @@ Turning complex systems into reliable products — backend, AI integration, geos
 
 | Product | Stack | Status | What I built |
 |---|---|---|---|
-| **SignalDesk** — [App Store](https://apps.apple.com/kr/app/signal-desk-%ED%88%AC%EC%9E%90-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C/id6770443767) · [app](https://github.com/giwon1130/signal-desk-app) · [api](https://github.com/giwon1130/signal-desk-api) · [web](https://giwon1130.github.io/signal-desk-app/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · Gemini | **App Store · 운영 중** | 여러 시장·거시·뉴스 소스를 장애 격리·캐시·폴백으로 통합하고 구조화 AI 브리핑 제공 |
-| **Codie · 코디** — [App Store](https://apps.apple.com/kr/app/codie-ai-%EC%BD%94%EB%94%94/id6791064962) · [support](https://giwon1130.github.io/codie-support/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · Gemini Vision | **App Store · 운영 중** | 날씨·TPO·색 조화·피드백 기반 후보와 멀티모달 검증을 결합한 개인화 코디 추천 |
-| **Card Together** — [App Store](https://apps.apple.com/kr/app/%EC%B9%B4%EB%93%9C%ED%88%AC%EA%B2%8C%EB%8D%94/id6792750711) · [support](https://giwon1130.github.io/card-together-legal/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · App Intents | **App Store · 운영 중** | 문자 원문을 보관하지 않는 카드 내역 수집, 해시 중복 방지와 가족 공동 예산 |
+| **SignalDesk** — [App Store](https://apps.apple.com/kr/app/signal-desk-%ED%88%AC%EC%9E%90-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C/id6770443767) · [app](https://github.com/giwon1130/signal-desk-app) · [api](https://github.com/giwon1130/signal-desk-api) · [web](https://giwon1130.github.io/signal-desk-app/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · Gemini | **App Store · 운영 중** | 시장·뉴스 데이터를 모은 투자 대시보드. 외부 API 실패를 개별 처리하고, AI 브리핑 응답 검증과 캐시 적용 |
+| **Codie · 코디** — [App Store](https://apps.apple.com/kr/app/codie-ai-%EC%BD%94%EB%94%94/id6791064962) · [support](https://giwon1130.github.io/codie-support/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · Gemini Vision | **App Store · 운영 중** | 옷 사진에서 속성을 추출하고 날씨·일정에 맞는 코디 추천. 규칙 기반 후보에 Gemini를 더하고, 응답 오류 시 기존 후보 유지 |
+| **Card Together · 카드투게더** — [App Store](https://apps.apple.com/kr/app/%EC%B9%B4%EB%93%9C%ED%88%AC%EA%B2%8C%EB%8D%94/id6792750711) · [support](https://giwon1130.github.io/card-together-legal/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · App Intents | **App Store · 운영 중** | 승인·취소 문자로 가족 지출과 예산 공유. 문자 원문은 보관하지 않고 해시로 중복 등록을 막으며 캡처 기준금액과의 이중 합산 방지 |
 
 ### In TestFlight
 
 | Product | Stack | Status | What I built |
 |---|---|---|---|
-| **곳곳** | React Native · Expo · TypeScript · Local-first | **TestFlight · 개선 중** | 방문·저장 기록을 지도 도감으로 보여주고 취향·계절·다양성을 반영한 설명 가능한 추천 제공 |
+| **곳곳** | React Native · Expo · TypeScript · Local-first | **TestFlight · 개선 중** | 다녀온 곳과 가고 싶은 곳을 지도에 모으고 사진·메모로 여행을 기록. 실사용하며 UI·UX 개선 중 |
 
 ### Public Repositories
 
@@ -128,11 +122,9 @@ Turning complex systems into reliable products — backend, AI integration, geos
 | [giwon-assistant-api](https://github.com/giwon1130/giwon-assistant-api) | Kotlin · Spring Boot | 아침 브리핑·뉴스·날씨 요약과 AI 비서 API |
 | [base-spring-template](https://github.com/giwon1130/base-spring-template) | Kotlin · Spring Boot | 반복되는 백엔드 기반 구성을 정리한 시작 템플릿 |
 
-## 공개 저장소 방향 · Philosophy
+## 공개 저장소에 남기는 것
 
-공개 저장소는 회사 프로젝트의 원본을 올리는 공간이 아니라, **독립 제품·프로토타입·허브·템플릿**을 통해 문제 정의부터 검증과 운영까지의 과정을 보여주는 공간입니다.
-
-Open repositories aren't mirrors of work projects — they're where I demonstrate the *define → build → validate → operate* loop through independent products and engineering experiments.
+직접 만든 제품, 실험용 프로토타입, 반복해서 쓰는 백엔드 구성을 남깁니다. 출시하지 않은 앱도 TestFlight에서 검증한 뒤 계속 만들지 중단할지 판단했습니다.
 
 ---
 
