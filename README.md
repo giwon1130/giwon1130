@@ -17,7 +17,7 @@ Kotlin·Java로 위성영상 분석과 공간 데이터 서비스를 개발합�
 
 ## Now · 요즘 작업
 
-> **2026-09-22 업데이트** · 회사 프로젝트의 진행 상태는 2026-09-15까지 확인한 기록 기준입니다.
+> **2026-10-28 SignalDesk 상태 갱신** · 회사 프로젝트의 진행 상태는 2026-09-15까지 확인한 기록 기준입니다.
 
 **업무에서**
 
@@ -28,7 +28,7 @@ Kotlin·Java로 위성영상 분석과 공간 데이터 서비스를 개발합�
 
 **업무 밖에서**
 
-SignalDesk, 코디, 카드투게더를 혼자 기획하고 App Store에 출시했습니다. AI 코딩 도구를 활용하면서 구현을 검토하고 테스트·배포·운영을 맡았습니다. 여행 기록 앱 **곳곳**은 TestFlight에서 직접 사용하며 UI·UX를 개선하고 있습니다.
+코디와 카드투게더를 혼자 기획하고 App Store에 출시해 운영하고 있습니다. SignalDesk는 출시·운영 후 **2026-10-24 서비스를 종료**했으며, 소스와 개발 기록을 보관하고 있습니다. AI 코딩 도구를 활용하면서 구현을 검토하고 테스트·배포·운영을 맡았습니다. 여행 기록 앱 **곳곳**은 TestFlight에서 직접 사용하며 UI·UX를 개선하고 있습니다.
 
 ## Tech Stack
 
@@ -103,7 +103,6 @@ SignalDesk, 코디, 카드투게더를 혼자 기획하고 App Store에 출시�
 
 | Product | Stack | Status | What I built |
 |---|---|---|---|
-| **SignalDesk** — [App Store](https://apps.apple.com/kr/app/signal-desk-%ED%88%AC%EC%9E%90-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C/id6770443767) · [app](https://github.com/giwon1130/signal-desk-app) · [api](https://github.com/giwon1130/signal-desk-api) · [web](https://giwon1130.github.io/signal-desk-app/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · Gemini | **App Store · 운영 중** | 시장·뉴스 데이터를 모은 투자 대시보드. 외부 API 실패를 개별 처리하고, AI 브리핑 응답 검증과 캐시 적용 |
 | **Codie · 코디** — [App Store](https://apps.apple.com/kr/app/codie-ai-%EC%BD%94%EB%94%94/id6791064962) · [support](https://giwon1130.github.io/codie-support/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · Gemini Vision | **App Store · 운영 중** | 옷 사진에서 속성을 추출하고 날씨·일정에 맞는 코디 추천. 규칙 기반 후보에 Gemini를 더하고, 응답 오류 시 기존 후보 유지 |
 | **Card Together · 카드투게더** — [App Store](https://apps.apple.com/kr/app/%EC%B9%B4%EB%93%9C%ED%88%AC%EA%B2%8C%EB%8D%94/id6792750711) · [support](https://giwon1130.github.io/card-together-legal/) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · App Intents | **App Store · 운영 중** | 승인·취소 문자로 가족 지출과 예산 공유. 문자 원문은 보관하지 않고 해시로 중복 등록을 막으며 캡처 기준금액과의 이중 합산 방지 |
 
@@ -112,6 +111,12 @@ SignalDesk, 코디, 카드투게더를 혼자 기획하고 App Store에 출시�
 | Product | Stack | Status | What I built |
 |---|---|---|---|
 | **곳곳** | React Native · Expo · TypeScript · Local-first | **TestFlight · 개선 중** | 다녀온 곳과 가고 싶은 곳을 지도에 모으고 사진·메모로 여행을 기록. 실사용하며 UI·UX 개선 중 |
+
+### Past Products · 종료한 서비스
+
+| Product | Stack | Status | What I built |
+|---|---|---|---|
+| **SignalDesk** — [종료 안내](https://giwon1130.github.io/signal-desk-app/) · [app](https://github.com/giwon1130/signal-desk-app) · [api](https://github.com/giwon1130/signal-desk-api) | Kotlin · Spring Boot · PostgreSQL · RN/Expo · Gemini | **서비스 종료 · 2026-10-24** | 시장·뉴스 데이터를 모은 투자 대시보드. 외부 API 실패 처리, AI 브리핑 응답 검증과 캐시 적용. App Store 신규 다운로드·온라인 서비스 종료 후 소스와 개발 기록 보관 |
 
 ### Public Repositories
 
